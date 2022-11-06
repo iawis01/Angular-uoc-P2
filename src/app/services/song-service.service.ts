@@ -10,13 +10,13 @@ import { SONGS } from 'src/assets/dummyData';
   providedIn: 'root',
 })
 export class SongServiceService {
-  private songs: Song[] = SONGS;
+  private songs: Song[] = new SONGS().songsList;
   private subject = new Subject<any>();
 
   constructor(private http: HttpClient) {}
 
   public getSongs(): Song[] {
-    return SONGS;
+    return this.songs;
     // return this.http.get<Song[]>(url);
   }
 
