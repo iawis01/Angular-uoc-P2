@@ -2,7 +2,6 @@ import { Component, OnInit, Input } from '@angular/core';
 import { Subscription } from 'rxjs';
 import { SongServiceService } from 'src/app/services/song-service.service';
 
-import { SONGS } from '../../../assets/dummyData';
 import { Song } from '../song-detail/models/Song';
 
 @Component({
