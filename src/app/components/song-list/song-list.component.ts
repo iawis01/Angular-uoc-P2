@@ -7,10 +7,10 @@ import { Song } from '../song/models/Song';
 
 @Component({
   selector: 'app-home',
-  templateUrl: './home.component.html',
-  styleUrls: ['./home.component.scss'],
+  templateUrl: './song-list.component.html',
+  styleUrls: ['./song-list.component.scss'],
 })
-export class HomeComponent implements OnInit {
+export class SongListComponent implements OnInit {
   public songs: Song[] = [];
   public song: Song;
   searchTitle: string = '';
