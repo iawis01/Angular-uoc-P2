@@ -3,10 +3,10 @@ import { Subscription } from 'rxjs';
 import { SongServiceService } from 'src/app/services/song-service.service';
 
 import { SONGS } from '../../../assets/dummyData';
-import { Song } from '../song/models/Song';
+import { Song } from '../song-detail/models/Song';
 
 @Component({
-  selector: 'app-home',
+  selector: 'app-song-list',
   templateUrl: './song-list.component.html',
   styleUrls: ['./song-list.component.scss'],
 })

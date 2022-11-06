@@ -2,7 +2,7 @@ import { Component, OnInit, Input } from '@angular/core';
 import { UiService } from 'src/app/services/ui.service';
 import { AudioService } from 'src/app/services/audio.service';
 import { MatSliderModule } from '@angular/material/slider';
-import { Song } from '../song/models/Song';
+import { Song } from '../song-detail/models/Song';
 import { StreamState } from 'src/app/interfaces/stream-state';
 
 @Component({
