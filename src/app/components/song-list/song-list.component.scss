@@ -25,10 +25,10 @@ $black: black;
 .new-releases {
   background-color: $dark-gray;
   height: 120vw;
-  width: 100vw;
+  width: 90vw;
 
   &__title {
-    margin-top: 0px;
+    margin-top: 5px;
     padding-top: 20px;
     padding-left: 18.75px;
 
@@ -37,14 +37,20 @@ $black: black;
       margin-left: 5%;
     }
   }
-
-  .search-bar {
-    margin: auto;
+  .no-result {
     display: flex;
-    width: 50%;
-    // margin-left: 50%;
-    // transform: translateX(-50%);
-    // margin-bottom: 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 20px;
+    margin-left: 50%;
+    transform: translateX(-60%);
   }
 
   &__new-releases-section {

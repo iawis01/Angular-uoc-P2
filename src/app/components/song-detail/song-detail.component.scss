@@ -1,3 +1,8 @@
+.song-detail {
+  padding: 5px;
+  margin-top: 10px;
+}
+
 .song-detail img {
   max-width: 245px;
   max-height: 245px;
@@ -9,14 +14,9 @@
   margin: 0;
   padding: 0;
   margin-left: 0px;
+  color: #fff;
 }
 
-input[type="text"] {
-  background: transparent;
-  border: none;
-  color: #fff;
-  margin-top: 1vmax;
-}
 
 ::placeholder {
   color: #fff;
